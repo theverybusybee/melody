@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- подключаем последнюю версию HTML -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- указываем кодировку текста -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- тег, чтобы браузер отображал страницу по ширине девайса -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- подключаем библиотеку, чтобы сайт отображался одинаково в разных браузерах -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- делаем ссылку на файл со стилями-->
+    <title>ЖК "Мелодия"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- создаем шапку сайта, далее вкладываем содержимое -->
+      <div class="navbar">
+        <!-- создаем "ящик" для  с навигацией -->
+        <a href="./index.html" class="logo">
+          <!-- делаем ссылку на основную страницу при клике на картинку -->
+          <img src="img/Мелодия.svg" alt="ЖК Мелодия" />
+        </a>
+        <nav class="navbar-nav">
+          <!-- "ящик" для навигационной панели  -->
+          <ul class="navbar-menu">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Подобрать<br />квартиру</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Забронировать<br />квартиру</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Ход<br />строительства</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Проектная<br />декларация</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="navbar-contacts">
+          <!-- делаем блок для номера телефона -->
+          <span class="navbar-text">Закажите звонок:</span>
+          <a class="navbar-phone" href="tel:78431234567">8 (843) 123-45-67</a>
+          <!-- делаем активную ссылку для звонка -->
+        </div>
+        <!-- /.navbar-contacts -->
+      </div>
+      <!-- /.navbar -->
+    </header>
+  </body>
+</html>
