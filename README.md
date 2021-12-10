@@ -1,2 +1,6 @@
 # melody study project 
-made by Veronika A.
+## made by Veronika A.
+### Technologies :
+- HTML;
+- CSS;
+- JavaScript.
